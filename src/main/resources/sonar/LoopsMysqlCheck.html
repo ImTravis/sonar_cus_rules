@@ -1,0 +1,17 @@
+<p>Cant Run mysql in for or forEach</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+    for(...){
+      for(...){
+        dbQuery() ;// Noncompliant
+      }
+    }
+
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+    public class AbstractMysql{
+      dbQuery.batch(); //compliant
+    }
+
+</pre>
