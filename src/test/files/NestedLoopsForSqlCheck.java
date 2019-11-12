@@ -15,9 +15,13 @@ public class NestedLoopsForSqlCheck {
 
     public void checkSql2() {
         for (int k = 0; k < 10; k++) {
-            for (int a = 0; a < 10; a++){
-                dbQuery();
+            String a ="b";
+            if(a.equals("b")){
+                for (int a = 0; a < 10; a++){
+                    dbQuery();
+                }
             }
+
 
         }
     }

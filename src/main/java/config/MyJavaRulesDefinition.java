@@ -47,7 +47,7 @@ public class MyJavaRulesDefinition implements RulesDefinition {
     public void define(Context context) {
         NewRepository repository = context
                 .createRepository(REPOSITORY_KEY, Java.KEY)
-                .setName("Finger Java Custom Rules");
+                .setName("sonar-cus-java-01");
 
         new AnnotationBasedRulesDefinition(repository, Java.KEY)
                 .addRuleClasses(/* don't fail if no SQALE annotations */ false, RulesList.getChecks());
@@ -67,7 +67,7 @@ public class MyJavaRulesDefinition implements RulesDefinition {
 
     @Nullable
     private static String readRuleDefinitionResource(String fileName) {
-        URL resource = MyJavaRulesDefinition.class.getResource("/sonar/" + fileName);
+        URL resource = MyJavaRulesDefinition.class.getResource("/org/sonar/l10n/java/rules/squid/" + fileName);
         if (resource == null) {
             return null;
         }
