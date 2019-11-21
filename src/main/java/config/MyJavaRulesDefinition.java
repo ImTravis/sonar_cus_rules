@@ -39,7 +39,7 @@ import java.util.Locale;
  */
 public class MyJavaRulesDefinition implements RulesDefinition {
 
-    public static final String REPOSITORY_KEY = "finger-java-custom-rules";
+    public static final String REPOSITORY_KEY = "sonar-cus-java-rules";
 
     private final Gson gson = new Gson();
 

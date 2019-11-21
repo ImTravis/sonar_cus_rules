@@ -1,0 +1,8 @@
+
+Gsquid:S21405")Use "java.util.Random.nextInt()" instead.(ÛÜ‚8Øƒ»è-
+osquid:UselessImportCheck"LRemove this unused import 'com.fasterxml.jackson.databind.util.JSONPObject'.(æïœ
+Gsquid:S21401")Use "java.util.Random.nextInt()" instead.(ã¡Ñ±8Øƒ»è-
+¼squid:S1598"ŸThis file "SonartServiceImpl.java" should be located in "com\example\demo\service\impl" directory, not in "E:\å·¥ç¨‹\workspace\sonar_cus_rules\src\test\files".(µÿşóıÿÿÿÿ
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(«äæİùÿÿÿÿ8Øƒ»è-
+nsquid:UselessImportCheck"CRemove this unused import 'org.springframework.stereotype.Service'.(¼º¡Ú8¾å€»è-
+nsquid:UselessImportCheck"CRemove this unused import 'com.example.demo.service.SonartService'.(¤ˆØî8¾å€»è-

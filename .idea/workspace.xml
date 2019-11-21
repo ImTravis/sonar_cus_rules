@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6c96c22-fac6-4918-8f75-62cf920ae237" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SonarJavaUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/config/MyJavaRulesDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/MyJavaRulesDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rule/LoopsMysqlCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rule/LoopsMysqlCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sonar/LoopsMysqlCheck.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/squid/LoopsMysqlCheck.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sonar/LoopsMysqlCheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/squid/LoopsMysqlCheck.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sonar/LoopsMysqlCheck_java.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/squid/LoopsMysqlCheck_java.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/files/NestedLoopsForSqlCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/files/NestedLoopsForSqlCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoopsMysqlCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoopsMysqlCheckTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,16 +17,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rule/LoopsMysqlCheck.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/SonarJavaUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1675">
-              <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+            <state relative-caret-position="-21">
+              <caret line="113" column="16" lean-forward="true" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,20 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/MyJavaRulesDefinition.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rule/LoopsMysqlCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="49" column="46" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/MyJavaFileCheckRegistrar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
+            <state relative-caret-position="344">
+              <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,10 +47,27 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>/org/sonar/l10n/java/rules/squid</find>
       <find>Finger Java Custom Rules</find>
+      <find>singleton</find>
+      <find>separate</find>
+      <find>split</find>
+      <find>visitClass</find>
+      <find>finger-java-custom-rules</find>
+      <find>@Override</find>
+      <find>dbQuery</find>
+      <find>detailMethodBlock</find>
+      <find>for 循环  涉及到的 代码</find>
+      <find>detailExpressionStatementTree</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -75,11 +81,15 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/config/RulesList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoopsMysqlCheckTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/MyJavaFileCheckRegistrar.java" />
-        <option value="$PROJECT_DIR$/src/test/files/NestedLoopsForSqlCheck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rule/LoopsMysqlCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rule/CacheMessage.java" />
+        <option value="$PROJECT_DIR$/src/test/files/Dao.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/MyJavaRulesDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/files/NestedLoopsForSqlCheck.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoopsMysqlCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/test/files/SonartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/SonarJavaUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rule/LoopsMysqlCheck.java" />
       </list>
     </option>
   </component>
@@ -103,13 +113,18 @@
           <item name="Sonar Java Custom Rules" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Sonar Java Custom Rules" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="329" />
-    <option name="y" value="497" />
+    <option name="x" value="331" />
+    <option name="y" value="63" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -119,6 +134,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +182,8 @@
               <item name="sonar_cus_rules" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sonar_cus_rules" type="b2602c69:ProjectViewProjectNode" />
@@ -173,7 +191,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="squid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sonar_cus_rules" type="b2602c69:ProjectViewProjectNode" />
@@ -195,34 +212,40 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sonar_cus_rules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sonar_cus_rules" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/files" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.26484376" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\工程\workspace\sonar_cus_rules\src\main\resources\org\sonar\l10n\java\rules\squid" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\工程\workspace\sonar_cus_rules\src\test\files" />
+      <recent name="E:\工程\workspace\sonar_cus_rules\src\main\resources\sonar" />
+      <recent name="E:\工程\workspace\sonar_cus_rules\src\main\java\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="rule" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\工程\workspace\sonar_cus_rules\src\test\files" />
-      <recent name="E:\工程\workspace\sonar_cus_rules\src\main\resources\sonar" />
-      <recent name="E:\工程\workspace\sonar_cus_rules\src\main\java\config" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\工程\workspace\sonar_cus_rules\src\main\resources\org\sonar\l10n\java\rules\squid" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,173 +287,621 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573523750729</updated>
-      <workItem from="1573523753573" duration="2118000" />
+      <workItem from="1573523753573" duration="18309000" />
+      <workItem from="1573546872514" duration="2710000" />
+      <workItem from="1573549878563" duration="5032000" />
+      <workItem from="1573616351017" duration="5611000" />
+      <workItem from="1574229211217" duration="10751000" />
+      <workItem from="1574297705274" duration="17052000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.12 at 10h 10m 05s.xml">
+    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.21 at 14h 31m 50s.xml">
       <configuration name="LoopsMysqlCheckTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.12 at 10h 11m 03s.xml">
+    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.21 at 14h 39m 02s.xml">
       <configuration name="LoopsMysqlCheckTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.12 at 10h 13m 44s.xml">
+    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.21 at 14h 42m 15s.xml">
       <configuration name="LoopsMysqlCheckTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.12 at 10h 16m 44s.xml">
+    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.21 at 14h 42m 28s.xml">
       <configuration name="LoopsMysqlCheckTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.12 at 10h 20m 13s.xml">
+    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.21 at 14h 42m 52s.xml">
       <configuration name="LoopsMysqlCheckTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.12 at 10h 20m 41s.xml">
+    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.21 at 14h 43m 19s.xml">
       <configuration name="LoopsMysqlCheckTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.12 at 10h 21m 07s.xml">
+    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.21 at 14h 43m 53s.xml">
       <configuration name="LoopsMysqlCheckTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.12 at 10h 23m 27s.xml">
+    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.21 at 14h 45m 13s.xml">
       <configuration name="LoopsMysqlCheckTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.12 at 10h 27m 17s.xml">
+    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.21 at 14h 45m 33s.xml">
       <configuration name="LoopsMysqlCheckTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.12 at 10h 31m 02s.xml">
+    <history-entry file="LoopsMysqlCheckTest_test - 2019.11.21 at 14h 47m 28s.xml">
       <configuration name="LoopsMysqlCheckTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2118000" />
+    <option name="totallyTimeSpent" value="59465000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973205" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32963374" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3107658" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.05466238" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.8017621" visible="true" weight="0.18274383" />
+      <window_info id="Structure" order="4" sideWeight="0.1910828" side_tool="true" weight="0.30760986" />
+      <window_info anchor="bottom" id="SonarLint" order="0" weight="0.32963374" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32963374" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.44506106" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.47391787" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.427303" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.45615983" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.372919" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.12379421" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="JDT AST" order="7" weight="0.3381565" />
     </layout>
+    <layout-to-restore>
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.8017621" visible="true" weight="0.18274383" />
+      <window_info id="Structure" order="4" sideWeight="0.1910828" side_tool="true" weight="0.30760986" />
+      <window_info anchor="bottom" id="SonarLint" order="0" weight="0.32963374" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32963374" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.44506106" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.47391787" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.427303" />
+      <window_info anchor="bottom" id="Debug" order="10" visible="true" weight="0.45615983" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.372919" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.12379421" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="JDT AST" order="7" weight="0.3381565" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/rule/LoopsMysqlCheck.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/SonarJavaUtils.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/SonarJavaUtils.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/SonarJavaUtils.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="XBreakpointGroupingByPackageRule" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="treeChild" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>tree instanceof ListTreeImpl</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tree instanceof</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tree</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tree.getClass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tree.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tree.kind().values()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tree.kind().name</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tree.kind().name()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tree.kind().getAssociatedInterface().classLoader</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tree.kind().getAssociatedInterface()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sonar_cus_rules.iml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/tree/EmptyStatementTree.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="175">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/tree/BlockTree.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
+        <state relative-caret-position="175">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoopsMysqlCheckTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-checks/4.6.0.8784/java-checks-4.6.0.8784.jar!/org/sonar/java/checks/helpers/ExpressionsHelper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/squid/LoopsMysqlCheck.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/squid/LoopsMysqlCheck.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/RulesList.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/tree/VariableTree.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/sonarqube/sonar-plugin-api/6.2.1/sonar-plugin-api-6.2.1.jar!/org/sonar/api/server/rule/RulesDefinition.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/tree/MethodTree.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1480">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/org/sonar/l10n/java/rules/squid/LoopsMysqlCheck_java.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/MyJavaRulesPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-checks-testkit/4.6.0.8784/java-checks-testkit-4.6.0.8784.jar!/org/sonar/java/checks/verifier/CheckVerifier.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/files/NestedLoopsForSqlCheck.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-checks-testkit/4.6.0.8784/java-checks-testkit-4.6.0.8784.jar!/org/sonar/java/checks/verifier/JavaCheckVerifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="233">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonar_cus_rules.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/tree/TreeVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/model/statement/ForStatementTreeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+          <folding>
+            <element signature="e#3182#3183#0" expanded="true" />
+            <element signature="e#3229#3230#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/config/MyJavaFileCheckRegistrar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
+        <state relative-caret-position="600">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2130#2131#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/CheckRegistrar.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="1220" column="22" selection-start-line="1220" selection-start-column="22" selection-end-line="1220" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/sonarqube/sonar-plugin-api/6.2.1/sonar-plugin-api-6.2.1.jar!/org/sonar/api/server/rule/RulesDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/sonarqube/sonar-plugin-api/6.2.1/sonar-plugin-api-6.2.1.jar!/org/sonar/api/server/rule/RulesDefinitionI18nLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/sonarqube/sonar-plugin-api/6.2.1/sonar-plugin-api-6.2.1.jar!/org/sonar/api/server/rule/RuleTagFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/sonarqube/sonar-plugin-api/6.2.1/sonar-plugin-api-6.2.1.jar!/org/sonar/api/server/rule/RuleTagsToTypeConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/sonarqube/sonar-plugin-api/6.2.1/sonar-plugin-api-6.2.1.jar!/org/sonar/api/server/authentication/IdentityProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/sonarqube/sonar-plugin-api/6.2.1/sonar-plugin-api-6.2.1.jar!/org/sonar/api/scan/filesystem/FileExclusions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/sonarqube/sonar-plugin-api/6.2.1/sonar-plugin-api-6.2.1.jar!/org/sonar/api/server/authentication/OAuth2IdentityProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/sonarqube/sonar-plugin-api/6.2.1/sonar-plugin-api-6.2.1.jar!/org/sonar/api/rules/RuleQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/MyJavaRulesDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/MyJavaRulesPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/RulesList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/MyJavaRulesDefinition.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/tree/SyntaxToken.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="49" column="46" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        <state relative-caret-position="119">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/model/InternalSyntaxToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#2598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/tree/ExpressionStatementTree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/model/statement/ExpressionStatementTreeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="19" />
+          <folding>
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/ast/JavaAstScanner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/model/expression/MethodInvocationTreeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/tree/StatementTree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/ast/parser/BlockStatementListTreeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/sslr/sslr-core/1.21/sslr-core-1.21.jar!/org/sonar/sslr/grammar/GrammarRuleKey.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+          <folding>
+            <element signature="e#2036#2037#0" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/tree/ClassTree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/tree/BaseTreeVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1970">
+          <caret line="204" column="37" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/plugins/java/api/tree/Tree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1899">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="2124" column="17" selection-start-line="2124" selection-start-column="11" selection-end-line="2124" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/model/statement/BlockTreeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoopsMysqlCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/ast/parser/ListTreeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/model/declaration/ModifiersTreeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#2139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/files/NestedLoopsForSqlCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/ast/parser/StatementExpressionListTreeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/model/AbstractTypedTree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/sonarsource/java/java-frontend/4.6.0.8784/java-frontend-4.6.0.8784.jar!/org/sonar/java/model/expression/BinaryExpressionTreeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#1888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+          <folding>
+            <element signature="e#4139#4140#0" expanded="true" />
+            <element signature="e#4164#4165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/files/SonartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/SonarJavaUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="113" column="16" lean-forward="true" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rule/LoopsMysqlCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1675">
-          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+        <state relative-caret-position="344">
+          <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -440,9 +911,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sonar_cus_rules</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib-nodep:3.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

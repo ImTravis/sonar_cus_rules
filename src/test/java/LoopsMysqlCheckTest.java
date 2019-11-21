@@ -2,6 +2,9 @@ import org.junit.Test;
 import org.sonar.java.checks.verifier.JavaCheckVerifier;
 import rule.LoopsMysqlCheck;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @ClassName LoopsMysqlCheckTest
  * @Author Administrator
@@ -12,7 +15,8 @@ public class LoopsMysqlCheckTest {
     @Test
     public void test() {
         try {
-            JavaCheckVerifier.verify("src/test/files/NestedLoopsForSqlCheck.java", new LoopsMysqlCheck());
+
+            JavaCheckVerifier.verify("src/test/files/SonartServiceImpl.java", new LoopsMysqlCheck());
         }catch (IllegalStateException e){
             e.printStackTrace();
         }

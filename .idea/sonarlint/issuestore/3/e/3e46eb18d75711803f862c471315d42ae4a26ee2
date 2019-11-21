@@ -1,0 +1,26 @@
+
+[squid:S2629"7Use the built-in formatting to construct this argument.(Úáäÿÿÿÿÿ8æà¿è-
+‚squid:S1149?"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Æ¨ƒÊıÿÿÿÿ8ÿ¿ïÀè-
+esquid:S3457"AFormat specifiers should be used instead of string concatenation.(Úáäÿÿÿÿÿ8æà¿è-
+‚squid:S1149?"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Æ¨ƒÊıÿÿÿÿ8ÔÚÀè-
+_squid:S1854W"<Remove this useless assignment to local variable "iterator".(Éä¢Ÿşÿÿÿÿ8À¨¡Âè-
+hsquid:CommentedOutCodeLine¼"<This block of commented-out lines of code should be removed.(Üë‰æúÿÿÿÿ
+_squid:S1854P"<Remove this useless assignment to local variable "iterator".(Éä¢Ÿşÿÿÿÿ8Æµ­Ûè-
+_squid:S1481®";Remove this unused "memberSelectExpression" local variable.(ÌóÓäıÿÿÿÿ8æà¿è-
+asquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(ÑñÙ1
+_squid:S3457¢"AFormat specifiers should be used instead of string concatenation.(¥Í±T8æà¿è-
+hsquid:UselessImportCheck"DRemove this unused import 'com.sun.javafx.binding.ExpressionHelper'.(ïëÛ·
+usquid:S3776v"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Úé„»úÿÿÿÿ8æà¿è-
+nsquid:S1854®"JRemove this useless assignment to local variable "memberSelectExpression".(ÌóÓäıÿÿÿÿ8æà¿è-
+Usquid:S2629¢"7Use the built-in formatting to construct this argument.(¥Í±T8æà¿è-
+Lsquid:S1191"5Use classes from the Java API instead of Sun classes.(ïëÛ·
+:squid:S1643|"Use a StringBuilder instead.(×á¶8ÍßáÀè-
+usquid:UselessImportCheck	"LRemove this unused import 'org.sonar.java.checks.helpers.ExpressionsHelper'.(şü‘òÿÿÿÿÿ
+jsquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(ñÿ‰¢8æà¿è-
+Vsquid:S2629"7Use the built-in formatting to construct this argument.(ãËå8æà¿è-
+usquid:S3776?"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Æ¨ƒÊıÿÿÿÿ8ÛÅ©Ûè-
+Isquid:S1481y"&Remove this unused "a" local variable.(¥Ÿëşÿÿÿÿ8Û°ŞÀè-
+usquid:UselessImportCheck"QRemove this unused import 'org.sonar.java.ast.parser.BlockStatementListTreeImpl'.(ç†Ñ–
+`squid:S3457"AFormat specifiers should be used instead of string concatenation.(ãËå8æà¿è-
+_squid:S1854N"<Remove this useless assignment to local variable "iterator".(øØæ—øÿÿÿÿ8‘¹Ûè-
+Xsquid:S1905N"5Remove this unnecessary cast to "IdentifierTreeImpl".(øØæ—øÿÿÿÿ8‘¹Ûè-

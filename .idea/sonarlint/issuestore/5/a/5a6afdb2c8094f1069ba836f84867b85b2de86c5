@@ -1,0 +1,9 @@
+
+Hsquid:S19058",Remove this unnecessary cast to "ClassTree".(²íªøùÿÿÿÿ
+Bsquid:S1168I"+Return an empty collection instead of null.(¥¹ï
+isquid:UselessImportCheck"@Remove this unused import 'org.apache.commons.lang.StringUtils'.(Ö¥¬øÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ƒµ¬şÿÿÿÿ
+Esquid:S14816".Remove this unused "className" local variable.(Éá¼Ş
+csquid:S1871B"LThis branch's code block is the same as the block for the branch on line 64.(„•æ
+Tsquid:S18546"=Remove this useless assignment to local variable "className".(Éá¼Ş
+}squid:S1488""aImmediately return this expression instead of assigning it to the temporary variable "classTree".(²íªøùÿÿÿÿ
